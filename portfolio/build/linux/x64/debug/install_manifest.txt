@@ -6,10 +6,8 @@
 /xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/packages/model_viewer_plus/assets/model-viewer.min.js
 /xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/packages/model_viewer_plus/assets/template.html
 /xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES
-/xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
 /xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
 /xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
-/xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/version.json
-/xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
 /xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/assets/loading.gif
 /xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/assets/Possible_logo_for_DS.glb

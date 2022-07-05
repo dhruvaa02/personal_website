@@ -16,7 +16,16 @@
 
   <title>portfolio</title>
   <link rel="manifest" href="manifest.json">
-
+  <style>
+    .container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ee424b;
+    }
+  </style>
   <script>
     // The value below is injected by flutter build, do not touch.
     var serviceWorkerVersion = null;
@@ -28,6 +37,9 @@
 </head>
 </head>
 <body>
+  <div id="loading.gif" class="container">
+    <img class="loading_indicator" src="./assets/loading.gif">
+  <div>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
