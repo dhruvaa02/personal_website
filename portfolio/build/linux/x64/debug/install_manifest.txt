@@ -1,10 +1,10 @@
 /xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/portfolio
 /xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/icudtl.dat
 /xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/lib/liburl_launcher_linux_plugin.so
 /xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
-/xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/packages/babylonjs_viewer/assets/viewer/bg_nx.jpg
-/xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/packages/babylonjs_viewer/assets/viewer/babylon.viewer.min.js
-/xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/packages/babylonjs_viewer/assets/viewer/template.html
+/xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/packages/model_viewer_plus/assets/model-viewer.min.js
+/xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/packages/model_viewer_plus/assets/template.html
 /xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES
 /xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
 /xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json

@@ -38,6 +38,14 @@ flutter_lints
 2.17
 file:///home/dhruvaa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-2.0.1/
 file:///home/dhruvaa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-2.0.1/lib/
+flutter_plugin_android_lifecycle
+2.12
+file:///home/dhruvaa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.6/
+file:///home/dhruvaa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.6/lib/
+flutter_unity_widget
+2.13
+file:///home/dhruvaa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_unity_widget-2020.3.25/
+file:///home/dhruvaa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_unity_widget-2020.3.25/lib/
 js
 2.16
 file:///home/dhruvaa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.4/
@@ -86,6 +94,10 @@ stream_channel
 2.12
 file:///home/dhruvaa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0/
 file:///home/dhruvaa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0/lib/
+stream_transform
+2.12
+file:///home/dhruvaa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/stream_transform-2.0.0/
+file:///home/dhruvaa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/stream_transform-2.0.0/lib/
 string_scanner
 2.12
 file:///home/dhruvaa/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0/

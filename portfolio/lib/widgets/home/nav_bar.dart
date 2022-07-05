@@ -5,18 +5,15 @@ class NavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 100,
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: const [
-          _NavBarItem('About Me'),
-          _NavBarItem('Experience'),
-          _NavBarItem('Education'),
-          _NavBarItem('Projects'),
-          _NavBarItem('Contact')
-        ],
-      ),
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: const [
+        _NavBarItem('About Me'),
+        _NavBarItem('Experience'),
+        _NavBarItem('Education'),
+        _NavBarItem('Projects'),
+        _NavBarItem('Contact')
+      ],
     );
   }
 }

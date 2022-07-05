@@ -206,6 +206,15 @@ runner_BINARY_DIR:STATIC=/xps/coding_projects/flutter_website/personal_website/p
 //Value Computed by CMake
 runner_SOURCE_DIR:STATIC=/xps/coding_projects/flutter_website/personal_website/portfolio/linux
 
+//Value Computed by CMake
+url_launcher_linux_BINARY_DIR:STATIC=/xps/coding_projects/flutter_website/personal_website/portfolio/build/linux/x64/debug/plugins/url_launcher_linux
+
+//Value Computed by CMake
+url_launcher_linux_SOURCE_DIR:STATIC=/xps/coding_projects/flutter_website/personal_website/portfolio/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux
+
+//Dependencies for target
+url_launcher_linux_plugin_LIB_DEPENDS:STATIC=
+
 
 ########################
 # INTERNAL cache entries
@@ -287,7 +296,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

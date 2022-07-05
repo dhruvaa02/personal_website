@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Pls Work',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -25,10 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const Scaffold(
-        backgroundColor: Color.fromARGB(31, 49, 49, 49),
-        body: Logo3DView(),
-      ),
+      home: const Logo3DView(),
     );
   }
 }
