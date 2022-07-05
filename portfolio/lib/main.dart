@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/views/home_page.dart';
+import 'package:portfolio/views/three_d_logo_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const Logo3DView(),
     );
   }
 }
