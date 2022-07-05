@@ -25,7 +25,10 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const Logo3DView(),
+      home: const Scaffold(
+        backgroundColor: Color.fromARGB(31, 49, 49, 49),
+        body: Logo3DView(),
+      ),
     );
   }
 }
