@@ -6,17 +6,12 @@ class Logo3DView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: const Text("Model Viewer")),
-        body: ModelViewer(
-          src: 'assets/Possible_logo_for_DS.glb',
-          alt: "A 3D model of an astronaut",
-          ar: true,
-          autoRotate: true,
-          cameraControls: true,
-        ),
-      ),
+    return ModelViewer(
+      backgroundColor: Colors.black,
+      src: 'assets/Possible_logo_for_DS.glb',
+      ar: true,
+      autoRotate: true,
+      cameraControls: true,
     );
   }
 }
