@@ -16,10 +16,19 @@
 
   <title>portfolio</title>
   <link rel="manifest" href="manifest.json">
-
+  <style>
+    .container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ee424b;
+    }
+  </style>
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '3912933358';
+    var serviceWorkerVersion = '126691772';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -28,6 +37,9 @@
 </head>
 </head>
 <body>
+  <div id="loading.gif" class="container">
+    <img class="loading_indicator" src="https://logo3d.s3.ca-central-1.amazonaws.com/loading.gif">
+  <div>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
