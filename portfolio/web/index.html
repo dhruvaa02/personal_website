@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="$FLUTTER_BASE_HREF">
-
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
@@ -27,19 +12,35 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="https://logo3d.s3.ca-central-1.amazonaws.com/D.jpg"/>
 
   <title>portfolio</title>
   <link rel="manifest" href="manifest.json">
-
+  <style>
+    .container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ee424b;
+      /* margin: 0px; */
+    }
+  </style>
   <script>
     // The value below is injected by flutter build, do not touch.
     var serviceWorkerVersion = null;
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js" defer></script>
 </head>
-<body>
+</head>
+<body style="margin: 0px;">
+  <div id="loading.gif" class="container">
+    <img class="loading_indicator" src="https://logo3d.s3.ca-central-1.amazonaws.com/loading.gif">
+  <div>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
