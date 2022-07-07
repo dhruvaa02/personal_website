@@ -30,6 +30,8 @@ class _ResumeView extends State<ResumeView> {
       body: SfPdfViewer.network(
         'https://logo3d.s3.ca-central-1.amazonaws.com/resume.pdf',
         key: _pdfViewerKey,
+        interactionMode: PdfInteractionMode.pan,
+        initialZoomLevel: 1.5,
       ),
     );
   }
