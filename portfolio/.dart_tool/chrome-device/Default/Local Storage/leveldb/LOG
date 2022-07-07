@@ -1,7 +1,18 @@
-2022/07/07-00:31:54.552 4c03 Reusing MANIFEST /private/var/folders/_1/19_9j37s0gx5tbd0yhw8hzdw0000gn/T/flutter_tools.7Y0KmL/flutter_tools_chrome_device.cbcJ1q/Default/Local Storage/leveldb/MANIFEST-000001
-2022/07/07-00:31:54.555 4c03 Recovering log #10
-2022/07/07-00:31:54.556 4c03 Reusing old log /private/var/folders/_1/19_9j37s0gx5tbd0yhw8hzdw0000gn/T/flutter_tools.7Y0KmL/flutter_tools_chrome_device.cbcJ1q/Default/Local Storage/leveldb/000010.log 
-2022/07/07-00:31:54.558 4c03 Delete type=0 #6
-2022/07/07-00:31:54.558 4c03 Delete type=0 #3
-2022/07/07-00:31:54.558 4c03 Delete type=2 #7
-2022/07/07-00:31:54.558 4c03 Delete type=2 #5
+2022/07/07-00:54:15.391 2f03 Reusing MANIFEST /private/var/folders/_1/19_9j37s0gx5tbd0yhw8hzdw0000gn/T/flutter_tools.PbOjq8/flutter_tools_chrome_device.QPYlWy/Default/Local Storage/leveldb/MANIFEST-000001
+2022/07/07-00:54:15.394 2f03 Recovering log #10
+2022/07/07-00:54:15.394 2f03 Reusing old log /private/var/folders/_1/19_9j37s0gx5tbd0yhw8hzdw0000gn/T/flutter_tools.PbOjq8/flutter_tools_chrome_device.QPYlWy/Default/Local Storage/leveldb/000010.log 
+2022/07/07-00:54:15.396 2f03 Delete type=0 #6
+2022/07/07-00:54:15.396 2f03 Delete type=0 #3
+2022/07/07-00:54:15.396 2f03 Delete type=2 #7
+2022/07/07-00:54:15.396 2f03 Delete type=2 #5
+2022/07/07-00:57:07.828 4d0b Level-0 table #14: started
+2022/07/07-00:57:07.845 4d0b Level-0 table #14: 36784 bytes OK
+2022/07/07-00:57:07.874 4d0b Delete type=0 #10
+2022/07/07-00:57:07.877 4d0b Compacting 4@0 + 0@1 files
+2022/07/07-00:57:07.895 4d0b Generated table #15@0: 116 keys, 55223 bytes
+2022/07/07-00:57:07.895 4d0b Compacted 4@0 + 0@1 files => 55223 bytes
+2022/07/07-00:57:07.925 4d0b compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/07/07-00:57:07.929 4d0b Delete type=2 #14
+2022/07/07-00:57:07.929 4d0b Delete type=2 #3
+2022/07/07-00:57:07.929 4d0b Delete type=2 #11
+2022/07/07-00:57:07.929 4d0b Delete type=2 #9
