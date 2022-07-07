@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class NavBar extends StatelessWidget {
   const NavBar({Key? key}) : super(key: key);
@@ -93,8 +95,8 @@ class _FloatMenuState extends State<FloatMenu> {
             label: 'LinkedIn',
             labelStyle: const TextStyle(fontSize: 18.0, color: Colors.white),
             labelBackgroundColor: Colors.black,
-            onTap: () => print('FIRST CHILD'),
-            onLongPress: () => print('FIRST CHILD LONG PRESS'),
+            onTap: _launchLinkedIn,
+            onLongPress: () {},
           ),
           SpeedDialChild(
             //speed dial child
@@ -104,7 +106,7 @@ class _FloatMenuState extends State<FloatMenu> {
             label: 'GitHub',
             labelStyle: const TextStyle(fontSize: 18.0, color: Colors.white),
             labelBackgroundColor: Colors.black,
-            onTap: () => print('FIRST CHILD'),
+            onTap: _launchGitHub,
             onLongPress: () => print('FIRST CHILD LONG PRESS'),
           ),
           SpeedDialChild(
@@ -123,5 +125,23 @@ class _FloatMenuState extends State<FloatMenu> {
         ],
       ),
     );
+  }
+}
+
+_launchLinkedIn() async {
+  const url = 'https://linkedin.com/in/dhruvaa/';
+  if (await canLaunchUrlString(url)) {
+    await launchUrlString(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
+_launchGitHub() async {
+  const url = 'https://github.com/dhruvaa02';
+  if (await canLaunchUrlString(url)) {
+    await launchUrlString(url);
+  } else {
+    throw 'Could not launch $url';
   }
 }
