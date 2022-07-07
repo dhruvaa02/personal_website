@@ -74,6 +74,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_speed_dial",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_speed_dial-6.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -278,7 +284,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2022-07-06T23:58:38.583493Z",
+  "generated": "2022-07-07T01:22:06.177681Z",
   "generator": "pub",
   "generatorVersion": "2.17.5"
 }

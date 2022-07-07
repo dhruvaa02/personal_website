@@ -8,16 +8,34 @@ class Logo3DView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(children: [
-      const AnimatedBackground(),
-      ModelViewer(
-        src:
-            'https://logo3d.s3.ca-central-1.amazonaws.com/Possible_logo_for_DS.glb',
-        ar: true,
-        autoRotate: false,
-        cameraControls: true,
-      ),
-    ]);
+    return // Stack(
+        //   children: [
+        //     ModelViewer(
+        //       src:
+        //           'https://logo3d.s3.ca-central-1.amazonaws.com/Possible_logo_for_DS.glb',
+        //       ar: true,
+        //       autoRotate: false,
+        //       cameraControls: true,
+        //     ),
+        //     Scaffold(
+        //       floatingActionButton: FloatMenu(),
+        //     ),
+        //   ],
+        // );
+        Scaffold(
+            floatingActionButton: const FloatMenu(),
+            body: Stack(
+              children: [
+                const AnimatedBackground(),
+                ModelViewer(
+                  src:
+                      'https://logo3d.s3.ca-central-1.amazonaws.com/Possible_logo_for_DS.glb',
+                  ar: true,
+                  autoRotate: false,
+                  cameraControls: true,
+                ),
+              ],
+            ));
   }
 }
 
@@ -30,18 +48,18 @@ class AnimatedBackground extends StatelessWidget {
       Track("color1").add(
           const Duration(seconds: 3),
           ColorTween(
-              begin: Color.fromARGB(255, 185, 183, 255),
-              end: Color.fromARGB(255, 255, 154, 154))),
+              begin: const Color.fromARGB(255, 185, 183, 255),
+              end: const Color.fromARGB(255, 255, 154, 154))),
       Track("color2").add(
           const Duration(seconds: 3),
           ColorTween(
-              begin: Color.fromARGB(255, 255, 232, 120),
-              end: Color.fromARGB(255, 0, 174, 255))),
+              begin: const Color.fromARGB(255, 255, 232, 120),
+              end: const Color.fromARGB(255, 0, 174, 255))),
       Track("color3").add(
           const Duration(seconds: 3),
           ColorTween(
-              begin: Color.fromARGB(255, 187, 17, 17),
-              end: Color.fromARGB(255, 20, 141, 47)))
+              begin: const Color.fromARGB(255, 187, 17, 17),
+              end: const Color.fromARGB(255, 20, 141, 47)))
     ]);
 
     return ControlledAnimation(

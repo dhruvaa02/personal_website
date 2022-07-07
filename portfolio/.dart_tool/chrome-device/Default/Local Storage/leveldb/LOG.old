@@ -1,3 +1,12 @@
-2022/07/06-00:43:11.706 3 Reusing MANIFEST /tmp/flutter_tools.LLDLIR/flutter_tools_chrome_device.SSLQRA/Default/Local Storage/leveldb/MANIFEST-000001
-2022/07/06-00:43:11.706 3 Recovering log #3
-2022/07/06-00:43:11.706 3 Reusing old log /tmp/flutter_tools.LLDLIR/flutter_tools_chrome_device.SSLQRA/Default/Local Storage/leveldb/000003.log 
+2022/07/06-21:12:54.365 3303 Reusing MANIFEST /private/var/folders/_1/19_9j37s0gx5tbd0yhw8hzdw0000gn/T/flutter_tools.N0ZTCY/flutter_tools_chrome_device.EgP0u2/Default/Local Storage/leveldb/MANIFEST-000001
+2022/07/06-21:12:54.367 3303 Recovering log #6
+2022/07/06-21:12:54.370 3303 Reusing old log /private/var/folders/_1/19_9j37s0gx5tbd0yhw8hzdw0000gn/T/flutter_tools.N0ZTCY/flutter_tools_chrome_device.EgP0u2/Default/Local Storage/leveldb/000006.log 
+2022/07/06-21:12:54.372 3303 Delete type=0 #3
+2022/07/06-21:12:54.372 3303 Delete type=2 #7
+2022/07/06-21:12:54.372 3303 Delete type=2 #5
+2022/07/06-21:18:56.884 4e13 Level-0 table #9: started
+2022/07/06-21:18:56.902 4e13 Level-0 table #9: 42022 bytes OK
+2022/07/06-21:18:56.934 4e13 Delete type=0 #6
+2022/07/06-21:19:24.756 2e03 Level-0 table #11: started
+2022/07/06-21:19:24.771 2e03 Level-0 table #11: 41014 bytes OK
+2022/07/06-21:19:24.798 2e03 Delete type=0 #8
