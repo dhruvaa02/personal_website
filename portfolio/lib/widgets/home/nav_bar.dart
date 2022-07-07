@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:portfolio/views/resume_view.dart';
+import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class NavBar extends StatelessWidget {
@@ -65,7 +66,7 @@ class _FloatMenuState extends State<FloatMenu> {
     return Scaffold(
       backgroundColor: Colors.transparent,
       floatingActionButton: SpeedDial(
-        label: Text("Get to know me!"),
+        label: const Text("Get to know me!"),
         switchLabelPosition: true,
         //Speed dial menu //margin bottom
         icon: Icons.menu, //icon on Floating action button
@@ -75,7 +76,8 @@ class _FloatMenuState extends State<FloatMenu> {
         activeBackgroundColor:
             Colors.white, //background color when menu is expanded
         activeForegroundColor: Colors.black,
-        buttonSize: const Size(60.0, 60.0), //button size
+        buttonSize: const Size(40.0, 40.0),
+        childrenButtonSize: const Size(40.0, 40.0), //button size
         visible: true,
         closeManually: false,
         curve: Curves.bounceIn,
@@ -89,11 +91,13 @@ class _FloatMenuState extends State<FloatMenu> {
         children: [
           SpeedDialChild(
             //speed dial child
-            child: const Icon(Icons.accessibility),
+            child: const Icon(
+              Icons.accessibility,
+            ),
             backgroundColor: Colors.black,
             foregroundColor: Colors.white,
             label: 'LinkedIn',
-            labelStyle: const TextStyle(fontSize: 18.0, color: Colors.white),
+            labelStyle: const TextStyle(fontSize: 12.0, color: Colors.white),
             labelBackgroundColor: Colors.black,
             onTap: _launchLinkedIn,
             onLongPress: () {},
@@ -104,7 +108,7 @@ class _FloatMenuState extends State<FloatMenu> {
             backgroundColor: Colors.black,
             foregroundColor: Colors.white,
             label: 'GitHub',
-            labelStyle: const TextStyle(fontSize: 18.0, color: Colors.white),
+            labelStyle: const TextStyle(fontSize: 12.0, color: Colors.white),
             labelBackgroundColor: Colors.black,
             onTap: _launchGitHub,
             onLongPress: () => print('FIRST CHILD LONG PRESS'),
@@ -115,9 +119,12 @@ class _FloatMenuState extends State<FloatMenu> {
             backgroundColor: Colors.black,
             foregroundColor: Colors.white,
             label: 'Resume',
-            labelStyle: const TextStyle(fontSize: 18.0, color: Colors.white),
+            labelStyle: const TextStyle(fontSize: 12.0, color: Colors.white),
             labelBackgroundColor: Colors.black,
-            onTap: () => print('FIRST CHILD'),
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const ResumeView()));
+            },
             onLongPress: () => print('FIRST CHILD LONG PRESS'),
           ),
 

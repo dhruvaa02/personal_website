@@ -44,6 +44,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "convert",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/convert-3.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "crypto",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.5",
       "packageUri": "lib/",
@@ -98,6 +110,24 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "http",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.17.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "js",
       "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.4",
       "packageUri": "lib/",
@@ -138,6 +168,12 @@
       "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "petitparser",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-5.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
     },
     {
       "name": "platform",
@@ -188,6 +224,48 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "syncfusion_flutter_core",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/syncfusion_flutter_core-20.2.36",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "syncfusion_flutter_pdf",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/syncfusion_flutter_pdf-20.2.36",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "syncfusion_flutter_pdfviewer",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/syncfusion_flutter_pdfviewer-20.2.36-beta",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "syncfusion_pdfviewer_macos",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/syncfusion_pdfviewer_macos-20.2.36-beta",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "syncfusion_pdfviewer_platform_interface",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/syncfusion_pdfviewer_platform_interface-20.2.36-beta",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "syncfusion_pdfviewer_web",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/syncfusion_pdfviewer_web-20.2.36-beta",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "syncfusion_pdfviewer_windows",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/syncfusion_pdfviewer_windows-20.2.36-beta",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0",
       "packageUri": "lib/",
@@ -196,6 +274,12 @@
     {
       "name": "test_api",
       "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.4.9",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "typed_data",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -248,6 +332,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "uuid",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/uuid-3.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.2",
       "packageUri": "lib/",
@@ -278,13 +368,19 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "xml",
+      "rootUri": "file:///Users/dhruvaa/DATA/Coding_Projects/website/flutter/.pub-cache/hosted/pub.dartlang.org/xml-6.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "portfolio",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2022-07-07T02:10:33.817122Z",
+  "generated": "2022-07-07T02:44:45.238602Z",
   "generator": "pub",
   "generatorVersion": "2.17.5"
 }
