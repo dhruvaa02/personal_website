@@ -30,7 +30,7 @@ class Logo3DView extends StatelessWidget {
                 ModelViewer(
                   src:
                       'https://logo3d.s3.ca-central-1.amazonaws.com/Possible_logo_for_DS.glb',
-                  ar: true,
+                  ar: false,
                   arPlacement: ArPlacement.wall,
                   autoRotate: false,
                   cameraControls: true,

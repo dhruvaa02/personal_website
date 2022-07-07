@@ -91,9 +91,7 @@ class _FloatMenuState extends State<FloatMenu> {
         children: [
           SpeedDialChild(
             //speed dial child
-            child: const Icon(
-              Icons.accessibility,
-            ),
+            child: const Icon(Icons.person),
             backgroundColor: Colors.black,
             foregroundColor: Colors.white,
             label: 'LinkedIn',
@@ -104,7 +102,7 @@ class _FloatMenuState extends State<FloatMenu> {
           ),
           SpeedDialChild(
             //speed dial child
-            child: const Icon(Icons.accessibility),
+            child: const Icon(Icons.code),
             backgroundColor: Colors.black,
             foregroundColor: Colors.white,
             label: 'GitHub',
@@ -115,7 +113,7 @@ class _FloatMenuState extends State<FloatMenu> {
           ),
           SpeedDialChild(
             //speed dial child
-            child: const Icon(Icons.accessibility),
+            child: const Icon(Icons.book),
             backgroundColor: Colors.black,
             foregroundColor: Colors.white,
             label: 'Resume',
