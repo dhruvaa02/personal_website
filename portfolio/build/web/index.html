@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="https://logo3d.s3.ca-central-1.amazonaws.com/D.jpg"/>
 
   <title>portfolio</title>
   <link rel="manifest" href="manifest.json">
@@ -24,19 +24,24 @@
       justify-content: center;
       align-items: center;
       background-color: #ee424b;
+      /* margin: 0px; */
     }
   </style>
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '126691772';
+    var serviceWorkerVersion = '214997107';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.min.js"></script>
+    <script type="text/javascript">
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.worker.min.js";
+    </script>
 </head>
 </head>
-<body>
+<body style="margin: 0px;">
   <div id="loading.gif" class="container">
     <img class="loading_indicator" src="https://logo3d.s3.ca-central-1.amazonaws.com/loading.gif">
   <div>
